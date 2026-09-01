@@ -5,6 +5,16 @@ We adapt eleven representative networks (CNN, ResNet, DenseNet, CLDNN, RNN, LSTM
 - `models/` — SER-adapted member networks and log-Mel packing
 ## License
 Code in this repository is released under the MIT License (see `LICENSE`), except third-party material listed below.
+
+## Data
+
+This repository does not include audio. Experiments use two public acted SER corpora:
+
+- **CASIA** Chinese emotional speech (Institute of Automation, CAS). Six classes in the main tables.
+- **EmoDB** Berlin emotional speech (Burkhardt et al.). Used as a same-protocol second-corpus check.
+
+Obtain each corpus from its official distributor and follow the original license/terms. Place the files according to the paths expected by your own training script. We do not redistribute either corpus.
+
 ### Third-party code
 **VLP-ViT (adapted)**  
 Source: https://github.com/kjy7567/speech_emotion_recognition_from_log_Mel_spectrogram_using_vertically_long_patch  
