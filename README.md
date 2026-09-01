@@ -3,7 +3,6 @@ Unimodal SER baselines under a shared log-Mel protocol, plus TS-α posterior fus
 We adapt eleven representative networks (CNN, ResNet, DenseNet, CLDNN, RNN, LSTM, BiLSTM, GRU, GCN, ViT, VLP-ViT) to matched spectrogram or frame-sequence inputs. PostFuse combines independently trained members using class posteriors only. TS-α jointly fits temperatures, simplex weights, and Amari α.
 ## Layout
 - `models/` — SER-adapted member networks and log-Mel packing
-- `fusion/ts_alpha.py` — temperature scaling and Amari α-integration
 ## License
 Code in this repository is released under the MIT License (see `LICENSE`), except third-party material listed below.
 ### Third-party code
